@@ -29,14 +29,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ChrisKalahiki/Haiku-Playground">
-    <img src="assets/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">Ruger Bot</h3>
+<h3 align="center">Haiku Playground</h3>
 
   <p align="center">
-    A Discord bot for use in my personal server.
+    My personal playground for exploring the capabilities of Haiku and JAX.
     <br />
     <a href="https://github.com/ChrisKalahiki/Haiku-Playground/wiki"><strong>Explore the docs »</strong></a>
     <br />
