@@ -87,8 +87,9 @@
 ### Built With
 
 * [Python](https://www.python.org/)
-* [Docker](https://www.docker.com/)
-* [Make](https://www.gnu.org/software/make/)
+<!-- * [Docker](https://www.docker.com/) -->
+<!-- * [Make](https://www.gnu.org/software/make/) -->
+* [Jupyter Notebook](https://jupyter.org/)
 * [JAX](https://jax.readthedocs.io/)
 * [Haiku](https://dm-haiku.readthedocs.io/)
 
@@ -99,17 +100,21 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started, you'll need to install the dependencies listed in the [Requirements](#requirements) section. Then you can run the commands listed in the [Installation](#installation) section to get started.
+
+**Disclaimer:** This is a work in progress. Additionally, at this time, the `jaxlib` package for this project is supported for Linux (Ubuntu 16.04 or later) and macOS (10.12 or later) platforms. Windows users can use JAX on CPU and GPU via the Windows Subsystem for Linux. More information on the `jaxlib` package and it's installation requirements can be found [here](https://github.com/google/jax#installation).
 
 ### Prerequisites
 
 This project has a few pre-requisites before you can get up and running. They are as follows:
-1. [Docker](https://www.docker.com/)
-2. [Python 3.6+](https://www.python.org/downloads/)
-3. [Make](https://www.gnu.org/software/make/)
+1. [Python 3.6+](https://www.python.org/downloads/)
+2. [Jupyter Notebook](https://jupyter.org/)
+<!-- 2. [Docker](https://www.docker.com/) -->
+<!-- 3. [Make](https://www.gnu.org/software/make/) -->
 
 ### Installation
+
+  **Disclaimer:** We intend to make this project as easy to use as possible. As such, we hope to migrate to a fully containerized environment in the future. For the time being, users will be asked to install the dependencies listed in the `requirements.txt` file provided in this repository manually.
 
 1. Clone the repo
   ```sh
@@ -119,10 +124,18 @@ This project has a few pre-requisites before you can get up and running. They ar
   ```sh
   cd Haiku-Playground
   ```
-5. Build and run the Docker image.
+3. Install the dependencies
+  ```sh
+  pip install -r requirements.txt
+  ```
+4. Run the notebook
+  ```sh
+  jupyter notebook
+  ```
+<!-- 3. Build and run the Docker image.
   ```sh
   make all
-  ```
+  ``` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
